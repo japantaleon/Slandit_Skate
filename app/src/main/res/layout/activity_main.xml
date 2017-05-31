@@ -68,7 +68,8 @@
             android:text="Log in"
             android:textColor="#FFFFFFFF"
             android:background="@drawable/button"
-            android:id="@+id/BLogin"/>
+            android:id="@+id/BLogin"
+            android:textSize="16sp"/>
 
         <Button
             android:layout_gravity="center"
@@ -76,6 +77,7 @@
             android:layout_height="wrap_content"
             android:text="Sign up"
             android:textColor="#904e95"
+            android:textSize="16sp"
             android:background="@drawable/button2"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="50dp"
@@ -92,13 +94,13 @@
         <ImageView
             android:layout_width="45dp"
             android:layout_height="45dp"
-            android:layout_marginRight="40dp"
+            android:layout_marginEnd="55dp"
             android:src="@drawable/twitter" />
 
         <ImageView
             android:layout_width="45dp"
             android:layout_height="45dp"
-            android:layout_marginRight="40dp"
+            android:layout_marginEnd="55dp"
             android:src="@drawable/facebook" />
 
         <ImageView

@@ -1,37 +1,39 @@
-package com.skate.android.slandit_skate;
+package com.example.android.slandit_skate;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.support.annotation.NonNull;
-import android.support.design.internal.BottomNavigationItemView;
+import android.support.annotation.Nullable;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.view.View;
 
-import com.example.android.slandit_skate.BottomNavigationViewHelper;
-import com.example.android.slandit_skate.Home;
-import com.example.android.slandit_skate.Message;
-import com.example.android.slandit_skate.Notification;
-import com.example.android.slandit_skate.SearchData;
-import com.skate.android.slandit_skate.LogInform;
+import com.skate.android.slandit_skate.R;
+import com.skate.android.slandit_skate.UserProfile;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
- * Created by panta on 4/23/2017.
+ * Created by panta on 5/29/2017.
  */
 
-public class UserProfile extends AppCompatActivity{
-
-    TextView uFirstName;
-    TextView uLastname;
-    TextView uCity;
-    TextView uStyle;
-
+public class Home extends AppCompatActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.user_profile);
+        setContentView(R.layout.home);
+
+        final CircleImageView leo = (CircleImageView) findViewById(R.id.leo);
+
+        leo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent proIntent = new Intent(Home.this, UserProfile.class);
+                Home.this.startActivity(proIntent);
+            }
+        });
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);
@@ -41,22 +43,22 @@ public class UserProfile extends AppCompatActivity{
                 switch (item.getItemId())
                 {
                     case R.id.home_icon:
-                        Intent intent0 = new Intent(UserProfile.this, Home.class);
+                        Intent intent0 = new Intent(Home.this, Home.class);
                         startActivity(intent0);
                         break;
 
                     case R.id.search_icon:
-                        Intent intent1 = new Intent(UserProfile.this, SearchData.class);
+                        Intent intent1 = new Intent(Home.this, SearchData.class);
                         startActivity(intent1);
                         break;
 
                     case R.id.message_icon:
-                        Intent intent2 = new Intent(UserProfile.this, Message.class);
+                        Intent intent2 = new Intent(Home.this, Message.class);
                         startActivity(intent2);
                         break;
 
                     case R.id.activity_icon:
-                        Intent intent3 = new Intent(UserProfile.this, Notification.class);
+                        Intent intent3 = new Intent(Home.this, Notification.class);
                         startActivity(intent3);
                         break;
                 }

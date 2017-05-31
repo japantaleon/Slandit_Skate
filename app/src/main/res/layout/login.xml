@@ -23,32 +23,57 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingTop="20dp">
 
+
+        <EditText
+            android:layout_gravity="center"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:hint="@string/email"
+            android:textCursorDrawable="@android:color/white"
+            android:textColorHighlight="@android:color/white"
+            android:textColor="#FFFF"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="#E6E6E6"
+            android:textSize="22sp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="9dp"
+            android:id="@+id/loginEmail"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:layout_gravity="center"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:hint="@string/password"
+            android:textCursorDrawable="@android:color/white"
+            android:textColorHighlight="@android:color/white"
+            android:textColor="#FFFF"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="#E6E6E6"
+            android:textSize="22sp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="9dp"
+            android:id="@+id/loginPassword"
+            android:inputType="textPassword"/>
 
         <Button
-            android:id="@+id/ebutton"
             android:layout_gravity="center"
             android:layout_width="265dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/button"
-            android:text="Email"
-            android:textColor="#FFFFFFFF"
-            android:fontFamily="sans-serif-light"
-            android:layout_marginBottom="22dp"
-            android:layout_marginTop="65dp"
-            android:textSize="20sp"
-            android:textAllCaps="false"/>
+            android:text="Log in"
+            android:textColor="#904e95"
+            android:textSize="16sp"
+            android:background="@drawable/button2"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnLogin"/>
 
-        <Button
-            android:layout_gravity="center"
-            android:layout_width="265dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button"
-            android:hint="********"
-            android:textColorHint="#FFFFFFFF"
-            android:fontFamily="sans-serif-light"
-            android:textSize="20sp"/>
 
     </LinearLayout>
 
@@ -78,5 +103,13 @@
             android:paddingLeft="7dp"/>
 
     </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
 
 </LinearLayout>

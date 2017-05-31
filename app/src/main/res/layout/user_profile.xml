@@ -17,34 +17,37 @@
             android:layout_height="195dp">
 
             <TextView
+                android:id="@+id/textViewLast"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp"
                 android:layout_marginTop="110dp"
-                android:fontFamily="sans-serif-light"
                 android:text="Corcoran"
+                android:fontFamily="sans-serif-light"
                 android:textColor="#FFFFFFFF"
                 android:textSize="24sp" />
 
             <TextView
+                android:id="@+id/textViewCity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginRight="31dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="31dp"
                 android:layout_marginTop="80dp"
                 android:fontFamily="sans-serif-light"
-                android:text="Tustin, CA"
                 android:textColor="#FFFFFFFF"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:text="Tustin, CA"/>
 
             <TextView
+                android:text="Style: Street"
+                android:id="@+id/textViewStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginRight="22dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="22dp"
                 android:layout_marginTop="110dp"
                 android:fontFamily="sans-serif-light"
-                android:text="Style: Street"
                 android:textColor="#FFFFFFFF"
                 android:textSize="20sp" />
 
@@ -107,18 +110,8 @@
                 android:layout_gravity="right"
                 android:layout_marginRight="107dp"
                 android:layout_marginTop="160dp"
-                android:src="@drawable/ic_email_black_24dp" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="49dp"
-                android:layout_marginTop="80dp"
-                android:fontFamily="sans-serif-light"
-                android:text="Leo"
-                android:textColor="#FFFFFFFF"
-                android:textSize="24sp" />
+                android:src="@drawable/ic_email_black_24dp"
+                android:id="@+id/Signout"/>
 
             <TextView
                 android:id="@+id/textView"
@@ -131,6 +124,17 @@
                 android:text="CONTACT"
                 android:textColor="#000"
                 android:textSize="17sp" />
+
+            <TextView
+                android:text="Leo"
+                android:id="@+id/textViewFirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#FFFFFFFF"
+                android:textSize="24sp" />
 
         </FrameLayout>
 

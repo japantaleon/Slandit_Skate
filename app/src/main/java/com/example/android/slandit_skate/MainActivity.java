@@ -1,4 +1,4 @@
-package com.example.android.slandit_skate;
+package com.skate.android.slandit_skate;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity{
         BLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent loginIntent = new Intent(MainActivity.this, LogInform.class);
+                Intent loginIntent = new Intent(MainActivity.this, com.skate.android.slandit_skate.LogInform.class);
                MainActivity.this.startActivity(loginIntent);
             }
         });
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity{
         BSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent SignUpIntent = new Intent(MainActivity.this, SignUpForm.class);
+                Intent SignUpIntent = new Intent(MainActivity.this, com.skate.android.slandit_skate.SignUpForm.class);
                 MainActivity.this.startActivity(SignUpIntent);
             }
         });
