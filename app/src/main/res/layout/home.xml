@@ -93,24 +93,23 @@
                     android:layout_marginTop="10dp"
                     android:orientation="horizontal">
 
-                    <VideoView
+                    <ImageView
                         android:layout_width="175dp"
-                        android:layout_height="130dp"
+                        android:layout_height="150dp"
                         android:layout_marginEnd="50dp"
-                        android:layout_marginTop="20dp" />
+                        android:src="@mipmap/ic_video2"/>
 
-                    <VideoView
-                        android:id="@+id/skatevid"
+                    <ImageView
                         android:layout_width="175dp"
-                        android:layout_height="130dp"
+                        android:layout_height="150dp"
                         android:layout_marginEnd="50dp"
-                        android:layout_marginTop="20dp" />
+                        android:src="@mipmap/ic_video1"/>
 
-                    <VideoView
+                    <ImageView
                         android:layout_width="175dp"
-                        android:layout_height="130dp"
+                        android:layout_height="150dp"
                         android:layout_marginEnd="50dp"
-                        android:layout_marginTop="20dp" />
+                        android:src="@mipmap/ic_video3"/>
 
 
                 </LinearLayout>
@@ -156,24 +155,24 @@
                     android:layout_marginTop="10dp"
                     android:orientation="horizontal">
 
-                    <VideoView
+                    <ImageView
                         android:layout_width="175dp"
-                        android:layout_height="130dp"
+                        android:layout_height="150dp"
                         android:layout_marginEnd="50dp"
-                        android:layout_marginTop="20dp" />
+                        android:src="@mipmap/ic_video6"/>
 
-                    <VideoView
-                        android:id="@+id/videoView"
+                    <ImageView
                         android:layout_width="175dp"
-                        android:layout_height="130dp"
+                        android:layout_height="150dp"
                         android:layout_marginEnd="50dp"
-                        android:layout_marginTop="20dp" />
+                        android:src="@mipmap/ic_video7"/>
 
-                    <VideoView
+                    <ImageView
                         android:layout_width="175dp"
-                        android:layout_height="130dp"
+                        android:layout_height="150dp"
                         android:layout_marginEnd="50dp"
-                        android:layout_marginTop="20dp" />
+                        android:src="@mipmap/ic_video5"/>
+
 
 
                 </LinearLayout>
@@ -219,24 +218,24 @@
                     android:layout_marginTop="10dp"
                     android:orientation="horizontal">
 
-                    <VideoView
+                    <ImageView
                         android:layout_width="175dp"
-                        android:layout_height="130dp"
+                        android:layout_height="150dp"
                         android:layout_marginEnd="50dp"
-                        android:layout_marginTop="20dp" />
+                        android:src="@mipmap/ic_video4"/>
 
-                    <VideoView
-                        android:id="@+id/videoView"
+                    <ImageView
                         android:layout_width="175dp"
-                        android:layout_height="130dp"
+                        android:layout_height="150dp"
                         android:layout_marginEnd="50dp"
-                        android:layout_marginTop="20dp" />
+                        android:src="@mipmap/ic_video5"/>
 
-                    <VideoView
+                    <ImageView
                         android:layout_width="175dp"
-                        android:layout_height="130dp"
+                        android:layout_height="150dp"
                         android:layout_marginEnd="50dp"
-                        android:layout_marginTop="20dp" />
+                        android:src="@mipmap/ic_video6"/>
+
 
 
                 </LinearLayout>

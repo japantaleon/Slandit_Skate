@@ -32,7 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Notifications"
+                android:text="Activity"
                 android:textColor="#fff"
                 android:textSize="20sp"
                 android:fontFamily="sans-serif-light"/>
@@ -57,6 +57,116 @@
 
         </FrameLayout>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@mipmap/skate_icon"
+                android:layout_gravity="left"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Slandit"
+                android:textSize="25sp"
+                android:fontFamily="sans-serif-"
+                android:layout_marginStart="119dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/not1"
+                android:textSize="16sp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="45dp"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@mipmap/skate_icon"
+                android:layout_gravity="left"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Slandit"
+                android:textSize="25sp"
+                android:fontFamily="sans-serif-"
+                android:layout_marginStart="119dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/not2"
+                android:textSize="16sp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="45dp"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/active"
+                android:layout_gravity="left"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team Manager"
+                android:textSize="25sp"
+                android:fontFamily="sans-serif-"
+                android:layout_marginStart="119dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teaam"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="45dp"/>
+        </FrameLayout>
     </LinearLayout>
 
     <RelativeLayout

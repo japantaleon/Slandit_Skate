@@ -17,9 +17,9 @@
             <ImageView
                 android:layout_width="37dp"
                 android:layout_height="37dp"
-                android:src="@drawable/ic_menu_black_24dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginStart="10dp"/>
+            android:src="@drawable/ic_menu_black_24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="10dp"/>
 
             <ImageView
                 android:layout_width="260dp"
@@ -60,21 +60,21 @@
 
 
     <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="220dp"
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
         android:background="@drawable/gradient_background">
 
         <HorizontalScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:scrollbars="none"
-            android:layout_marginStart="115dp">
+            android:scrollbars="none">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginStart="120dp">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="150dp"
@@ -102,6 +102,15 @@
                     app:civ_border_color="#FFFFFFFF"
                     app:civ_border_width="2dp"/>
 
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/spitfire"
+                    app:civ_border_color="#FFFFFFFF"
+                    app:civ_border_width="2dp"/>
+
 
 
 
@@ -114,7 +123,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="40dp"
         android:layout_marginStart="25dp">
 
         <TextView
@@ -128,15 +137,15 @@
         <ImageView
             android:layout_width="38dp"
             android:layout_height="38dp"
-            android:src="@drawable/ic_search_black_24dp"
-            android:layout_marginStart="200dp"
+            android:src="@drawable/ic_camera_front_black_24dp"
+            android:layout_marginStart="240dp"
             android:layout_marginTop="1dp"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="45dp"
         android:layout_marginStart="25dp">
 
         <TextView
@@ -150,15 +159,15 @@
         <ImageView
             android:layout_width="38dp"
             android:layout_height="38dp"
-            android:src="@drawable/ic_search_black_24dp"
-            android:layout_marginStart="165dp"
+            android:src="@drawable/ic_person_outline_black_24dp"
+            android:layout_marginStart="208dp"
             android:layout_marginTop="1dp"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="45dp"
         android:layout_marginStart="25dp">
 
         <TextView
@@ -172,8 +181,8 @@
         <ImageView
             android:layout_width="38dp"
             android:layout_height="38dp"
-            android:src="@drawable/ic_search_black_24dp"
-            android:layout_marginStart="120dp"
+            android:src="@drawable/ic_business_black_24dp"
+            android:layout_marginStart="160dp"
             android:layout_marginTop="1dp"/>
     </LinearLayout>
 

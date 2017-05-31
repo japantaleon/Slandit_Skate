@@ -11,6 +11,14 @@
     <string name="firstname">First Name</string>
     <string name="lastname">Last Name</string>
     <string name="password">Password</string>
+    <string name="message1">Hey fam, you down to go skate later
+    today?</string>
+    <string name="message2">Hey bro, are you hyped for todays contest
+    you got this! You can win!!</string>
+    <string name="teaam">Hey Leo, We need you to come by the shop later today
+    maybe around 5pm to be safe</string>
+    <string name="not1">Congratualations! You are now FLO. We know you are hyped cuz we are</string>
+    <string name="not2">You got 5 new followers fam!</string>
     <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
     <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
 
